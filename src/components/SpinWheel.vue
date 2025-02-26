@@ -1,7 +1,7 @@
 
 <template>
-  <h2 v-if="!winnerResult">Spin the wheel</h2>
-  <h2 v-else>you won ${{winnerResult.text}}</h2>
+  <h2 class="text-yellow-400" v-if="!winnerResult">Spin the wheel</h2>
+  <h2 class="text-yellow-400" v-else>you won ${{winnerResult.text}}</h2>
   <div class="h-5">
     <ConfettiExplosion v-if="confetii"></ConfettiExplosion>
   </div>
