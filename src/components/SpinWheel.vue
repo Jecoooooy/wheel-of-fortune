@@ -11,6 +11,7 @@
 
   <VueWheelSpinner
 
+
       ref="spinner"
       :slices="slices"
       :winner-index="defaultWinner"
